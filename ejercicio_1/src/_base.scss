@@ -1,7 +1,28 @@
-$primary-color: darkorange;
-$secondary-color: skyblue;
-$text-color: darkblue;
-$font-base-size: 1.3em;
-$link-font-size: 1.5em;
-$grid-item-base-color: darkblue;
+$base-color-1: red;
+$base-color-2: blue;
+$base-color-3: green;
 
+@mixin container-styles($base-color) {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: lightgrey;
+
+    .box {
+        display: flex;
+        width: 80px;
+        height: 100px;
+        place-content: center;
+        border-radius: 5px;
+    }
+
+    .base-color {
+        background-color: $base-color;
+        width: 130px;
+        color: white;
+    }
+    
+    .color-box-text{
+        place-content: center;
+    }
+}
