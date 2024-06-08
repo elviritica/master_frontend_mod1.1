@@ -1,0 +1,29 @@
+//WARM THEME COLORS
+$base-color-warm: red;
+$important-color-warm: darken($base-color-warm, 30%);
+$warning-color-warm: lighten($base-color-warm, 35%);
+
+//COOL THEME COLORS
+$base-color-cool: blue;
+$important-color-cool: darken($base-color-cool, 30%);
+$warning-color-cool: rgb(0, 234, 255);
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 120px;
+    justify-content: center; 
+    align-items: center; 
+    border: solid black 1px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+

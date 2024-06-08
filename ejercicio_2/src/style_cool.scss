@@ -1,0 +1,25 @@
+@use "base" as *;
+
+.container {
+    border-radius: 5%;
+}
+
+.base {
+    background-color: $base-color-cool;
+}
+
+.important {
+    background-color: $important-color-cool;
+}
+
+.warning {
+    background-color: $warning-color-cool;
+}
+
+p {
+    font-family: serif;
+}
+
+.shadow {
+    box-shadow: 10px 10px 15px black;
+}

@@ -8,6 +8,7 @@
 
 # Archivos generados
 dist/
+.parcel-cache/
 
 # Bootstrap
 node_modules/

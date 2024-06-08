@@ -1,0 +1,25 @@
+@use "base" as *;
+
+.container {
+    border-radius: 2%;
+}
+
+.base {
+    background-color: $base-color-warm;
+}
+
+.important {
+    background-color: $important-color-warm;
+}
+
+.warning {
+    background-color: $warning-color-warm;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.shadow {
+    box-shadow: -10px 10px 15px black;
+}

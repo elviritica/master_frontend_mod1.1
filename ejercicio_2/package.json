@@ -1,5 +1,5 @@
 {
-  "name": "ejercicio_1",
+  "name": "ejercicio_2",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -14,3 +14,5 @@
     "parcel": "^2.12.0"
   }
 }
+
+

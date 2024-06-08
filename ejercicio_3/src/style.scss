@@ -1,0 +1,53 @@
+@use "base" as *;
+
+* {
+  font-family: sans-serif;
+}
+
+header {
+  height: 50px;
+  p {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 5px;
+  }
+}
+
+nav {
+  background-color: $secondary-color;
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &:hover {
+      background-color: $primary-color;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    height: auto;
+  }
+
+  nav {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  li {
+    padding: 10px;
+    justify-content: center;
+  }
+}
