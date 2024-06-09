@@ -6,7 +6,7 @@ $warning-color-warm: lighten($base-color-warm, 35%);
 //COOL THEME COLORS
 $base-color-cool: blue;
 $important-color-cool: darken($base-color-cool, 30%);
-$warning-color-cool: rgb(0, 234, 255);
+$warning-color-cool: lighten($base-color-cool, 35%);
 
 
 body {

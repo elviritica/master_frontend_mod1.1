@@ -1,7 +1,7 @@
 @use "base" as *;
 
 .container {
-    border-radius: 2%;
+    border-radius: 5%;
 }
 
 .base {
@@ -16,8 +16,12 @@
     background-color: $warning-color-warm;
 }
 
-p {
-    font-family: sans-serif;
+.principal {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.secondary {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .shadow {
