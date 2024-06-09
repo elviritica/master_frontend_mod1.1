@@ -1,0 +1,13 @@
+$background-color: rgb(234, 234, 234);
+$accent-color: rgb(105,184,44);
+
+@mixin card-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+@mixin card-text {
+    line-height: 1.5;
+    font-size: 15px;
+}
