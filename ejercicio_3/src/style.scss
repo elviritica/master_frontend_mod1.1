@@ -14,24 +14,29 @@ header {
 }
 
 nav {
-  background-color: $secondary-color;
-  list-style-type: none;
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  li {
+  background-color: $secondary-color;
+  ul {
+    height: 100%;
+    width: auto;
+    background-color: $secondary-color;
+    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
+    justify-content: space-between;
 
-    &:hover {
-      background-color: $primary-color;
+    li {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      color: white;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      &:hover {
+        background-color: $primary-color;
+      }
     }
   }
 }
@@ -42,12 +47,14 @@ nav {
   }
 
   nav {
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-
-  li {
-    padding: 10px;
-    justify-content: center;
+    ul {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      li {
+        padding: 10px;
+        justify-content: center;
+      }
+    }
   }
 }

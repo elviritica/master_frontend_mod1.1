@@ -1,19 +1,23 @@
 @use "base" as *;
 
+$base-color: blue;
+$important-color: darken($base-color, 30%);
+$warning-color: lighten($base-color, 35%);
+
 .container {
     border-radius: 10%;
 }
 
 .base {
-    background-color: $base-color-cool;
+    background-color: $base-color;
 }
 
 .important {
-    background-color: $important-color-cool;
+    background-color: $important-color;
 }
 
 .warning {
-    background-color: $warning-color-cool;
+    background-color: $warning-color;
 }
 
 .principal {

@@ -1,14 +1,3 @@
-//WARM THEME COLORS
-$base-color-warm: red;
-$important-color-warm: darken($base-color-warm, 30%);
-$warning-color-warm: lighten($base-color-warm, 35%);
-
-//COOL THEME COLORS
-$base-color-cool: blue;
-$important-color-cool: darken($base-color-cool, 30%);
-$warning-color-cool: lighten($base-color-cool, 35%);
-
-
 body {
     display: flex;
     flex-direction: column;
