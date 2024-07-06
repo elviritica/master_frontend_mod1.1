@@ -5,7 +5,6 @@
     - Instala las dependencias con `npm install`
     - Ejecuta con `npm start`
 - Abre el navegador en http://localhost:1234/
-- Al cambiar entre ejercicios borra la carpeta `.parcel-cache`
 
 ## Laboratorio 1.1
 ### Ejercicio 1 - Paleta de colores dinámica

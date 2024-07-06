@@ -9,7 +9,6 @@ header {
   p {
     font-weight: bold;
     font-size: large;
-    margin-left: 5px;
   }
 }
 
@@ -17,14 +16,18 @@ nav {
   height: 100%;
   width: 100%;
   background-color: $secondary-color;
+  display: flex;
+  justify-content: center; 
   ul {
     height: 100%;
-    width: auto;
+    width: 100%;
     background-color: $secondary-color;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0;
+    margin: 0; 
 
     li {
       display: flex;
@@ -42,17 +45,20 @@ nav {
 }
 
 @media screen and (max-width: 640px) {
+
   header {
     height: auto;
   }
 
   nav {
+    
     ul {
       flex-direction: column;
       flex-wrap: nowrap;
       align-items: center;
       li {
-        padding: 10px;
+        width: 100%;
+        padding: 10px 0px 10px 0px;
         justify-content: center;
       }
     }
